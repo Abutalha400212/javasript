@@ -7,5 +7,6 @@ for(let i=number; i>0; i-- ){
 }
 return result;
 }
-const result = factorial(9);
-console.log(result);
+const report = 12;
+const result = factorial(report);
+console.log('Factorial OF',report,':',result);
