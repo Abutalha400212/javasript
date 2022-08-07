@@ -9,7 +9,6 @@ console.log(shoopingCart);
 var keysSoft = Object.keys(shoopingCart);
 console.log(keysSoft[0]);
 var keyvalues = Object.values(shoopingCart);
-
 console.log(keysSoft);
 console.log(keyvalues);
 var propertyName = 'price';
