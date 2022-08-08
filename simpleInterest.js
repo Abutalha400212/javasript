@@ -1,6 +1,14 @@
-function simpleInterest (principal,interestRate,time){
-  var  multiple= (principal*interestRate*time)/100;
-    return multiple
+// simple Interest//
+const s =120;
+const t= 6;
+const r = 1;
+if(r>1){
+  rate=r/100;
 }
-var total= simpleInterest(12,0.7,5);
-console.log(total)
+else{
+  rate=r;
+}
+
+SI = s*t*rate;
+console.log(SI);
+
