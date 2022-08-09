@@ -4,7 +4,7 @@ function getSumOffAnArray(numbers){
         const index =i;
         const element = numbers[index];
         sum = sum +element;
-        console.log(index,element,sum);
+        console.log(sum);
     }
     return sum;
 }
