@@ -1,14 +1,14 @@
 const friends = ['nadim', 'rasel', 'tuhin', 'asaduzzaman', 'rokonuz', 'pintu', 'rubel', 'sakil'];
+const reversed = friends.join(' + ');
+console.log(reversed);
 
-let biggestName = friends[0];
 function biggestFriend(friends){
-    for (let i = 0; i < friends.length; i++) {
-    let friend = friends[i];
-    if (friend.length > biggestName.length) {
-        biggestName = friend;
-        console.log(biggestName);
-    }
+    let select = [];
+    for (let i = friends.length-1 ; i>= 0 ; i--) {
+    const friend = friends[i];
+select.push(friend);
 }
-
+const reversed2 = select.join(' + ')
+return reversed2;
 }
-biggestFriend(friends);
+console.log(biggestFriend(friends));
